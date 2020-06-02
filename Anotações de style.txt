@@ -1,0 +1,11 @@
+explicação da estilização da tela de conversas.js
+flex 1 -> para que ocupe toda a linha
+
+explicação da estilização da tela de tabBarMenu.js
+justifyContent: 'center' -> alinhar o conteúdo verticalmente no centro
+elevation: 0 -> para tirar a elevação criada por padrão no component TabBar
+elevation: 4, marginBottom: 6 -> para aplicar uma elevação da parte debaixo do component, assim debaixo de CONVERSAS e CONTATOS vai ficar um sombremento
+flexDirection: 'row' -> fazer com que os components internos da View fiquem alinhados em uma linha
+justifyContent: 'space-between' -> aplica um espaço entre os components filhos (no meio)
+justifyContent: 'center', width: 50, alignItems: 'center' -> width para dar um espaçamento do próximo component justifyContent para centralizar verticalmente e alignItems para centralizar horizontalmente
+underlayColor='#114D44' -> cor que vai ficar depois do TouchableHighlight ser pressionado
